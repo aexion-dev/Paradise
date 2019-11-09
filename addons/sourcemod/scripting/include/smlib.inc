@@ -21,8 +21,6 @@
 #include <smlib/files>
 #include <smlib/game>
 #include <smlib/math>
-#include <smlib/menus>
-//#include <smlib/pluginmanager>
 #include <smlib/server>
 #include <smlib/strings>
 #include <smlib/sql>
