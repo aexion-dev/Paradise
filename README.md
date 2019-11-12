@@ -89,5 +89,40 @@ Every player's personal best records are stored in the database along with the #
 ### Security
 ### VIP
 ## Commands
+Client Commands | Variables | Description
+------------ | ------------- | -------------
+sm_style | none | Open style selection menu
+sm_r | none | Respawn at start of map
+sm_b | none | Respawn at start of bonus map
+sm_spec | [playername] | Spectate target player
+sm_me | none | View your player profile
+sm_profile | [playername] | View target player profile
+sm_wr | none | Open world records menu
+sm_maptop | [mapname] | View top records on map
+sm_top | none | View top style ranks
+sm_leaderboard | none | View Paradise Leaderboard
+sm_eve | none | Open EVE Bunnyhop Companion menu
+sm_hideweapons | none | Toggle weapon visibility
+sm_hideknife | none | Toggle knife visibility
+sm_vip | none | Open VIP menu
+sm_mapinfo | none |  View map information
+sm_rtv | none | Rock the vote
+sm_nominate | none | Nominate map for map vote
+
+Admin Commands | Variables | Description
+------------ | ------------- | -------------
+sm_setlevel | [playername] [level] | Manually set player's level
+sm_givexp | [playername] [XP] | Manually give player XP amount
+sm_zones | none | Open Paradise Zone Editor
+sm_spec | [target] | Spectate target player
+sm_addmap | [mapname] [tier] [XP] | Add new map to database
+sm_deletemap | [mapname] | Remove existing map from database
+sm_addvip| [playername] | Give player VIP Status
+sm_calcscore | [playername] | Force Paradise Score calculation
+sm_querycount | none | Show # of MySQL Queries ran this round
+sm_sh | [playername] | Show players strafes/angles for cheat detection
+
+For a full list of commands and their functions, read
+
 ## Support
 ## Changelog
