@@ -40,9 +40,16 @@ Paradise is a CS:GO server plug-in built from the ground up to re-define bunnyho
     * https://forums.alliedmods.net/showthread.php?t=255298
 * Trigger_Push Fix v1.3 by Blacky/Hmmmm
     * https://forums.alliedmods.net/showthread.php?t=255298
+* MPBhops v1.0.1 by DaFox/Hmmmmm
+    * https://forums.alliedmods.net/showthread.php?t=255298
 ## Features
-
-### Commands
-### Changelog
-
+### Maps
+Every map is assigned a tier and XP value based on the difficulty of the map, average completion time and number of overall completions. A custom map vote is held near the end of each round to decide the next map. A single map from each tier is randomly selected for the vote and nominated maps will appear in place of the corresponding map's tier. For an in-depth look at the map system in Paradise, read about it on our wiki page.
+* Add a New Map
+    * Upload map to server's csgo/maps directory. (.nav files are required. if it doesn't exist, copy/paste one from another map and rename it to yourmapname.nav)
+    * In-game use the admin command `sm_add_map [mapname | tier | xp]` to add your map to the database.
+### Zones
+### Styles
+### Profiles
+### Rankings
 
