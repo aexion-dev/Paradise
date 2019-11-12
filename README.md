@@ -53,7 +53,7 @@ Every map is assigned a tier and XP value based on the difficulty of the map, av
 * Import existing maps.sql data (500+ maps)
     * Coming Soon
 ### Zones
-There are five zone types in Paradise: Start Zone, End Zone, Bonus Start Zone, Bonus End Zone and Cheat Zone. Each one has a unique function on the area it defines. Every map will require Start/End Zones to be playable. For information on all of the zones and their uses, read about it on our wiki page.
+There are five zone types in Paradise: Start Zone, End Zone, Bonus Start Zone, Bonus End Zone and Cheat Zone. Every zone can contain up to 6 vertices and the area defined functions  Each zone can contain up to 6 vertices and will perform a different function when a player enters/exits the defined area. Every map will require Start/End Zones to be playable. For information on all of the zones and their uses, read about it on our wiki page.
 * Create a New Zone
     * In-game type `!zones` into the chat to open the zone editor.
     * Select the type of zone and press place zones.
@@ -68,5 +68,6 @@ There are five zone types in Paradise: Start Zone, End Zone, Bonus Start Zone, B
 ### Styles
 There are seven different bunnyhop styles on Paradise: Auto, Legit, Freestyle, Parkour, Half-Sideways, Sideways and W-Only. Each style has unique characteristics that change the way you play, and map completion XP is dependent on the difficulty of the style. For an overview of how each style works and tutorials on getting started with a new style, read about them on our wiki page.
 ### Profiles
+Player profiles contain a robust amount of information on a player's level, map completion, records, paradise score and other useful data. Paradise score is a unique statistic that factors in map records, total map completion and level/xp to calculate a player's overall skill level on the server. For more information on the player profiles and the paradise score formula, read about it on our wiki page.
 ### Rankings
 
