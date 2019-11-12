@@ -32,8 +32,16 @@ Paradise is a CS:GO server plug-in built from the ground up to re-define bunnyho
         }
       }
       ```
+4. Restart Game Server and open server console to verify Paradise has been installed successfully.
+### Recommended Add-ons
+* Slope Boost Fix v1.2 by Blacky
+    * https://forums.alliedmods.net/showthread.php?t=266888
+* CS:GO Movement Unlocker v1.0 by Peace-Maker
+    * https://forums.alliedmods.net/showthread.php?t=255298
+* Trigger_Push Fix v1.3 by Blacky/Hmmmm
+    * https://forums.alliedmods.net/showthread.php?t=255298
+## Features
 
-### Features
 ### Commands
 ### Changelog
 
