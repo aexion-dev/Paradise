@@ -68,6 +68,12 @@ There are five zone types in Paradise: Start Zone, End Zone, Bonus Start Zone, B
 ### Styles
 There are seven different bunnyhop styles on Paradise: Auto, Legit, Freestyle, Parkour, Half-Sideways, Sideways and W-Only. Each style has unique characteristics that change the way you play, and map completion XP is dependent on the difficulty of the style. For an overview of how each style works and tutorials on getting started with a new style, read about them on our wiki page.
 ### Profiles
-Player profiles contain a robust amount of information on a player's level, map completion, records, paradise score and other useful data. Paradise score is a unique statistic that factors in map records, total map completion and level/xp to calculate a player's overall skill level on the server. For more information on the player profiles and the paradise score formula, read about it on our wiki page.
+Player profiles contain a robust amount of information on a player's level, map completion, records, paradise score and other useful data. Paradise score is a unique statistic that factors in map records, total map completion and level/xp to calculate a player's overall skill level on the server. For more information on player profiles and the paradise score formula, read about it on our wiki page.
 ### Records
 Every player's personal best records are stored in the database along with the # of jumps, strafes, sync and date recorded. Each map also has a leaderboard of the top 100 records for each style and the top record for each is replayable through [EVE]. For more information on how records work, please read about them on our wiki page.
+### EVE
+### Security
+### VIP
+## Commands
+## Support
+## Changelog
