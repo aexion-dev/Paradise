@@ -66,6 +66,7 @@ There are five zone types in Paradise: Start Zone, End Zone, Bonus Start Zone, B
 * Import existing zones.sql data (500+ zones)
     * Coming Soon
 ### Styles
+There are seven different bunnyhop styles on Paradise: Auto, Legit, Freestyle, Parkour, Half-Sideways, Sideways and W-Only. Each style has unique characteristics that change the way you play, and map completion XP is dependent on the difficulty of the style. For an overview of how each style works and tutorials on getting started with a new style, read about them on our wiki page.
 ### Profiles
 ### Rankings
 
