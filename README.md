@@ -46,9 +46,25 @@ Paradise is a CS:GO server plug-in built from the ground up to re-define bunnyho
 ### Maps
 Every map is assigned a tier and XP value based on the difficulty of the map, average completion time and number of overall completions. A custom map vote is held near the end of each round to decide the next map. A single map from each tier is randomly selected for the vote and nominated maps will appear in place of the corresponding map's tier. For an in-depth look at the map system in Paradise, read about it on our wiki page.
 * Add a New Map
-    * Upload map to server's csgo/maps directory. (.nav files are required. if it doesn't exist, copy/paste one from another map and rename it to yourmapname.nav)
+    * Upload map to server's csgo/maps directory. (.nav file is required. if one doesn't exist, copy/paste one from another map and rename it to yourmapname.nav)
     * In-game use the admin command `sm_add_map [mapname | tier | xp]` to add your map to the database.
+* Remove an Existing Map
+    * In-game use the admin command `sm_delete_map [mapname | tier | xp]` to remove your map from the database.
+* Import existing maps.sql data (500+ maps)
+    * Coming Soon
 ### Zones
+There are five zone types in Paradise: Start Zone, End Zone, Bonus Start Zone, Bonus End Zone and Cheat Zone. Each one has a unique function on the area it defines. Every map will require Start/End Zones to be playable. For information on all of the zones and their uses, read about it on our wiki page.
+* Create a New Zone
+    * In-game type `!zones` into the chat to open the zone editor.
+    * Select the type of zone and press place zones.
+    * Place your crosshair on the ground at the first point and select place point.
+    * Select Save Zones and ensure they were saved to the database successfully.
+* Edit an Current Zone
+    * Coming Soon
+* Delete an Existing Zone
+    * Coming Soon
+* Import existing zones.sql data (500+ zones)
+    * Coming Soon
 ### Styles
 ### Profiles
 ### Rankings
