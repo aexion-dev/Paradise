@@ -7,7 +7,7 @@
   <br>
   <a href="#about">Requirements</a> •
   <a href="#requirements">Installation</a> •
-  <a href="#installation">Features</a>
+  <a href="#installation">Features</a> •
   <a href="#requirements">Commands</a> •
   <a href="#requirements">Wiki</a> •
   <a href="#requirements">Support</a> •
