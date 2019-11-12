@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/kuristaja/paradise/rosalina/luma"
+                "$bumpmap"    "models/player/kuristaja/paradise/rosalina/normal"
+
+	"$halflambert" "1"
+	
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" "0.8"
+	"$phongfresnelranges"	"[.15 .45 1]"
+	"$PhongAlbedoTint" "1"
+
+                "$rimlight" "1"
+	"$rimlightexponent" "35"
+	"$rimlightboost" "5"
+}

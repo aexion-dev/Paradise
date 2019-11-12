@@ -1,0 +1,17 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player\bbs_93x_net\girl\miku_skin\miku_sea/um_suit"
+	"$bumpmap" "models\player\bbs_93x_net\girl\miku_skin\um_suit_n"
+	"$surfaceprop" "flesh"
+	"$model" 1
+	"$nocull" 1
+//P
+	"$phong" "1"
+	"$phongboost"	"7"
+	 $phongexponent 500
+	"$phongfresnelranges"	"[0.3 0.3 .3]"
+	"$halflambert" "1"
+//LW
+	"$lightwarptexture"		"models\player\bbs_93x_net\girl\miku_skin\lw"
+}
+

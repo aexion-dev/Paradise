@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	// ARMS TRANSLUNCET
+
+	"$basetexture" "models/player/kuristaja/paradise/rosalina/rosalina_cloth"
+                "$bumpmap"    "models/player/kuristaja/paradise/rosalina/normal"
+
+	"$translucent" "1"
+
+	"$halflambert" "1"
+	
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[.15 .45 1]"
+	"$PhongAlbedoTint" "1"
+
+	"$detail" "models/player/kuristaja/paradise/rosalina/detail_cotton"
+	"$detailscale" "5"
+	"$detailblendfactor" "1.0"
+	"$detailblendmode" "0"
+}

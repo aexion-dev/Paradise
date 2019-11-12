@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/kuristaja/paradise/rosalina/rosalina_body"
+                "$bumpmap"    "models/player/kuristaja/paradise/rosalina/rosalina_body_normal"
+
+	"$halflambert" "1"
+
+	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[.15 .45 1]"
+	"$PhongAlbedoTint" "1"
+                "$phongexponenttexture"	"models/player/kuristaja/paradise/rosalina/hairspec"
+
+                "$rimlight" "1"
+	"$rimlightexponent" "35"
+	"$rimlightboost" "5"
+}

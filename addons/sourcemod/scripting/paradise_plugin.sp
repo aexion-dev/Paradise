@@ -23,7 +23,7 @@
 #include "paradise/commands.sp"
 #include "paradise/styles.sp"
 #include "paradise/security.sp"
-#include "paradise/bash3.sp"
+#include "paradise/bash.sp"
 #include "paradise/settings.sp"
 
 #pragma semicolon 1

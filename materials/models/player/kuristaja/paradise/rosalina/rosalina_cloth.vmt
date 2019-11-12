@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/kuristaja/paradise/rosalina/rosalina_cloth"
+                "$bumpmap"    "models/player/kuristaja/paradise/rosalina/normal"
+
+	"$alphatest" 1
+
+	"$halflambert" "1"
+	
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[.15 .45 1]"
+	"$PhongAlbedoTint" "1"
+
+	"$detail" "models/player/kuristaja/paradise/rosalina/detail_cotton"
+	"$detailscale" "7"
+	"$detailblendfactor" "1.0"
+	"$detailblendmode" "0"
+
+                "$rimlight" "1"
+	"$rimlightexponent" "35"	
+	"$rimlightboost" "5"
+}

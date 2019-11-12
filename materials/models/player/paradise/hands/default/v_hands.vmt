@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+   "$basetexture" "models\player\paradise\hands\default\v_hands"
+   "$bumpmap"                       "models\player\paradise\hands\default\v_hands_normal"
+   "$envmap"                        "env_cubemap"
+   "$normalmapalphaenvmapmask"      "1"
+   
+   "Proxies"
+   {
+      "AnimatedTexture"
+      {
+         "animatedtexturevar" "$basetexture"
+         "animatedtextureframenumvar" "$frame"
+         "animatedtextureframerate" "9"
+      }
+   }
+}

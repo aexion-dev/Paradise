@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/kuristaja/paradise/rosalina/bhoplogo"
+                //"$bumpmap"    "models/player/kuristaja/paradise/rosalina/normal"
+	"$translucent" "1"
+}

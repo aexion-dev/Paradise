@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	                 "models\player\paradise\hands\default\v_sleeves"
+	"$bumpmap"                       "models\player\paradise\hands\default\v_sleeves_normal"
+
+	"$envmap"                        "env_cubemap"
+	
+	"$normalmapalphaenvmapmask"      "1"
+}

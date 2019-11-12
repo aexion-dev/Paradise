@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/paradise/sonic/torso2"
+	"$bumpmap"	"models/player/paradise/sonic/sonic_n"
+	"$halflambert" 1
+ 	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost"	".025"
+	"$phongfresnelranges"	"[1 1 1]"
+}
