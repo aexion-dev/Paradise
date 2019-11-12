@@ -1,4 +1,17 @@
-# Paradise
+<h1 align="center">Paradise</h1>
+<h4 align="center"></h4>
+<p align="center">
+  <a href="https://www.google.com/"><img src="http://img.shields.io/badge/build-passing-brightgreen?style=flat-square"></a>
+  <a href="https://www.google.com/"><img src="https://img.shields.io/badge/release-v5.0.0-blue?style=flat-square"></a>
+  <a href="https://www.google.com/"><img src="https://img.shields.io/badge/issues-0-brightgreen?style=flat-square&logo=github"></a>
+  <br>
+  <a href="#about">Requirements</a> •
+  <a href="#requirements">Installation</a> •
+  <a href="#installation">Features</a>
+  <a href="#requirements">Commands</a> •
+  <a href="#requirements">Wiki</a> •
+  <a href="#requirements">Support</a> •
+</p>
 Paradise is a CS:GO server plug-in built from the ground up to re-define bunnyhopping within the Counter-Strike franchise. New styles, complex features and global competitions combine to create an experience unlike anything you've played before.
 
 ### Requirements
