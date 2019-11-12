@@ -5,11 +5,11 @@
   <a href="https://www.google.com/"><img src="https://img.shields.io/badge/release-v5.0.0-blue?style=flat-square"></a>
   <a href="https://www.google.com/"><img src="https://img.shields.io/badge/issues-0-brightgreen?style=flat-square&logo=github"></a>
   <br>
-  <a href="#about">Requirements</a> •
-  <a href="#requirements">Installation</a> •
-  <a href="#installation">Features</a> •
-  <a href="#requirements">Commands</a> •
-  <a href="#requirements">Wiki</a> •
+  <a href="#requirements">Requirements</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#features">Features</a> •
+  <a href="#commands">Commands</a> •
+  <a href="#wiki">Wiki</a> •
   <a href="#requirements">Changelog</a> •
   <a href="#requirements">Support</a>
 </p>
