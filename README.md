@@ -70,7 +70,7 @@ There are five zone types in Paradise: Start Zone, End Zone, Bonus Start Zone, B
     * Select the type of zone you wish to create.
     * Place your crosshair at the location of the first zone point and select `Start Point`.
     * Repeat this for each zone point, and selecting `Next Point` each time.
-    * When the zone is complete, select Save Zone and reload map to ensure it was saved successfully.
+    * When the zone is complete, select `Save Zone` and reload map to ensure it was saved successfully.
 * Delete an Existing Zone
     * In-game type `!zones` into the chat to open the zone editor.
     * Select the type of zone you wish to delete.
