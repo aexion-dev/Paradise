@@ -1,4 +1,4 @@
-<h1 align="center">Paradise</h1>
+<h1 align="center"><img src="https://panels-images.twitch.tv/panel-112057792-image-ec75027f8b5d1c45-320.png"></h1>
 <h4 align="center"></h4>
 <p align="center">
   <a href="https://travis-ci.com/aexion-dev/Paradise"><img src="http://img.shields.io/badge/build-passing-brightgreen?style=flat-square"></a>
