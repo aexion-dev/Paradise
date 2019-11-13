@@ -1,7 +1,7 @@
 <h1 align="center">Paradise</h1>
 <h4 align="center"></h4>
 <p align="center">
-  <a href="https://api.travis-ci.com/aexion-dev/Paradise.svg?token=Y3LH7LkNFok1bgiXDG4y&branch=master"><img src="http://img.shields.io/badge/build-passing-brightgreen?style=flat-square"></a>
+  <a href="https://travis-ci.com/aexion-dev/Paradise"><img src="http://img.shields.io/badge/build-passing-brightgreen?style=flat-square"></a>
   <a href="https://www.google.com/"><img src="https://img.shields.io/badge/release-v5.0.0-blue?style=flat-square"></a>
   <a href="https://github.com/aexion-dev/Paradise/issues"><img src="https://img.shields.io/badge/issues-0-brightgreen?style=flat-square&logo=github"></a>
   <br>
