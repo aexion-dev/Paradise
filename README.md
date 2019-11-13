@@ -52,13 +52,9 @@ Paradise is a CS:GO server plug-in built from the ground up to re-define bunnyho
 4. Restart Game Server and open server console to verify Paradise has been installed successfully.
 ### Recommended Add-ons
 * [Slope Boost Fix v1.2](https://forums.alliedmods.net/showthread.php?t=266888) by Blacky
-    * https://forums.alliedmods.net/showthread.php?t=266888
 * [CS:GO Movement Unlocker v1.0](https://forums.alliedmods.net/showthread.php?t=255298) by Peace-Maker
-    * https://forums.alliedmods.net/showthread.php?t=255298
 * [Trigger_Push Fix v1.3](https://forums.alliedmods.net/showthread.php?t=267131) by Blacky/Hmmmm
-    * https://forums.alliedmods.net/showthread.php?t=267131
 * [MPBhops v1.0.1](https://forums.alliedmods.net/showpost.php?p=2561012&postcount=118) by DaFox/Hmmmmm
-    * https://forums.alliedmods.net/showpost.php?p=2561012&postcount=118
 ## Features
 ### Maps
 Every map is assigned a tier and XP value based on the difficulty of the map, average completion time and number of overall completions. A custom map vote is held near the end of each round to decide the next map. A single map from each tier is randomly selected for the vote and nominated maps will appear in place of the corresponding map's tier. For an in-depth look at the map system in Paradise, read about it on our wiki page.
