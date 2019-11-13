@@ -87,8 +87,11 @@ Player profiles contain a robust amount of information on a player's level, map 
 ### Records
 Every player's personal best records are stored in the database along with the # of jumps, strafes, sync and date recorded. Each map also has a leaderboard of the top 100 records for each style and the top record for each is replayable through [EVE]. For more information on how records work, please read about them on our wiki page.
 ### EVE
-### Security
+Meet the first bunnyhop companion: EVE! She keeps track of the current timeleft on a map and displays it on the scoreboard. Timeleft is dynamically calculated for each map based on the the number of records and the average completion time of the map. EVE also can replay the top world record runs for the current map. For more information on EVE's features and how she can help you, read about her on our wiki page.
+### StrafeSecurity
+Complex anti-cheat system designed specifically for bunnyhop. The system uses a variety of techniques to catch hackers depending on the style being used. When a cheater is detected a record is logged of the evidence/reasoning behind the detection and optional sourcebans integration allows for automatic punishment. For more information on the techniques used by the anti-cheat system and how to integrate it with sourcebans, please read our wiki page.
 ### VIP
+Donators/Staff are given an exclusive menu system that is built-in to Paradise. From there, VIP clients are allowed to spawn custom weapons, equip custom models (and even purchase their own custom-made models) or equip a custom trail. Trails utilize the particle system for easy downloadability and custom trails exist for events/giveaways such as the Bunnyhop Battle Royale winners. Learn more about the VIP system by reading our wiki page.
 ## Commands
 Client Commands | Variables | Description
 ------------ | ------------- | -------------
@@ -127,4 +130,7 @@ For a full list of commands and their functions, view our wiki page.
 ## Wiki
 Paradise is a complex plug-in that provides a variety of new features/mechanics. If you'd like to learn more about the plug-in's capabilities or still have questions, please read through the articles on the wiki.
 ## Support
+Website: aexion.dev
+Steam Profile: Hunny Bop
+AlliedModders: aexi0n
 ## Changelog
