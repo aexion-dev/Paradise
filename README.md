@@ -26,7 +26,7 @@ Paradise is a CS:GO server plug-in built from the ground up to re-define bunnyho
 ### Installation
 1. Download the latest version of Paradise and extract it to any folder.
 2. Compile the plug-ins. (Optional)
-    * Download Sourcemod V1.5 or earlier and extract it to any folder.
+    * Download Sourcemod V1.8 or later and extract it to any folder.
     * Copy all files from Paradise/addons/sourcemod/scripting/ into Sourcemod/addons/sourcemod/scripting.
     * Drag-and-drop paradise-plugin.sp onto compile.exe.
     * Copy paradise-plugin.smx from Sourcemod/addons/sourcemod/compiled/ to Paradise/addons/sourcemod/plugins.
@@ -37,25 +37,28 @@ Paradise is a CS:GO server plug-in built from the ground up to re-define bunnyho
       ```
       "Databases"
       {
-        // other configurations here
-
-        "paradise_db"
+        "default"
         {
-          "driver"	"mysql"
-          "database"	"paradise_db"
+            "driver"			"mysql"
+            "host"			"YourURL"
+            "database"		"YourDatabaseName"
+            "user"			"user"
+            "pass"			"pass"
+            //"timeout"		"0"
+            //"port"			"0"
         }
       }
       ```
 4. Restart Game Server and open server console to verify Paradise has been installed successfully.
 ### Recommended Add-ons
-* Slope Boost Fix v1.2 by Blacky
+* [Slope Boost Fix v1.2](https://forums.alliedmods.net/showthread.php?t=266888) by Blacky
     * https://forums.alliedmods.net/showthread.php?t=266888
-* CS:GO Movement Unlocker v1.0 by Peace-Maker
+* [CS:GO Movement Unlocker v1.0](https://forums.alliedmods.net/showthread.php?t=255298) by Peace-Maker
     * https://forums.alliedmods.net/showthread.php?t=255298
-* Trigger_Push Fix v1.3 by Blacky/Hmmmm
-    * https://forums.alliedmods.net/showthread.php?t=255298
-* MPBhops v1.0.1 by DaFox/Hmmmmm
-    * https://forums.alliedmods.net/showthread.php?t=255298
+* [Trigger_Push Fix v1.3](https://forums.alliedmods.net/showthread.php?t=267131) by Blacky/Hmmmm
+    * https://forums.alliedmods.net/showthread.php?t=267131
+* [MPBhops v1.0.1](https://forums.alliedmods.net/showpost.php?p=2561012&postcount=118) by DaFox/Hmmmmm
+    * https://forums.alliedmods.net/showpost.php?p=2561012&postcount=118
 ## Features
 ### Maps
 Every map is assigned a tier and XP value based on the difficulty of the map, average completion time and number of overall completions. A custom map vote is held near the end of each round to decide the next map. A single map from each tier is randomly selected for the vote and nominated maps will appear in place of the corresponding map's tier. For an in-depth look at the map system in Paradise, read about it on our wiki page.
@@ -64,8 +67,6 @@ Every map is assigned a tier and XP value based on the difficulty of the map, av
     * In-game use the admin command `sm_add_map [mapname | tier | xp]` to add your map to the database.
 * Remove an Existing Map
     * In-game use the admin command `sm_delete_map [mapname | tier | xp]` to remove your map from the database.
-* Import existing maps.sql data (500+ maps)
-    * Coming Soon
 ### Zones
 There are five zone types in Paradise: Start Zone, End Zone, Bonus Start Zone, Bonus End Zone and Cheat Zone. Every zone can contain up to 6 vertices and the area defined functions  Each zone can contain up to 6 vertices and will perform a different function when a player enters/exits the defined area. Every map will require Start/End Zones to be playable. For information on all of the zones and their uses, read about it on our wiki page.
 * Create a New Zone
@@ -73,13 +74,12 @@ There are five zone types in Paradise: Start Zone, End Zone, Bonus Start Zone, B
     * Select the type of zone you wish to create.
     * Place your crosshair at the location of the first zone point and select `Start Point`.
     * Repeat this for each zone point, and selecting `Next Point` each time.
-    * When the zone is complete, select Save Zone and ensure they were saved to the database successfully.
-* Edit a Current Zone
-    * Coming Soon
+    * When the zone is complete, select Save Zone and reload map to ensure it was saved successfully.
 * Delete an Existing Zone
-    * Coming Soon
-* Import existing zones.sql data (500+ zones)
-    * Coming Soon
+    * In-game type `!zones` into the chat to open the zone editor.
+    * Select the type of zone you wish to delete.
+    * Select `Delete Zone` and then select `Save Zone`.
+    * After zone is deleted, reload map to ensure it was removed successfully.
 ### Styles
 There are seven different bunnyhop styles on Paradise: Auto, Legit, Freestyle, Parkour, Half-Sideways, Sideways and W-Only. Each style has unique characteristics that change the way you play, and map completion XP is dependent on the difficulty of the style. For an overview of how each style works and tutorials on getting started with a new style, read about them on our wiki page.
 ### Profiles
@@ -130,7 +130,8 @@ For a full list of commands and their functions, view our wiki page.
 ## Wiki
 Paradise is a complex plug-in that provides a variety of new features/mechanics. If you'd like to learn more about the plug-in's capabilities or still have questions, please read through the articles on the wiki.
 ## Support
-Website: aexion.dev
-Steam Profile: Hunny Bop
-AlliedModders: aexi0n
+Feel free to reach out with any questions/feedback:
+  * Website: [aexion.dev](https://www.aexion.dev/)
+  * Steam: [Hunny Bop](https://steamcommunity.com/profiles/[U:1:196129736])
+  * AlliedModders: [aexi0n](https://forums.alliedmods.net/member.php?u=255100)
 ## Changelog
