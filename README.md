@@ -2,7 +2,7 @@
 <h4 align="center"></h4>
 <p align="center">
   <a href="https://travis-ci.com/aexion-dev/Paradise"><img src="http://img.shields.io/badge/build-passing-brightgreen?style=flat-square"></a>
-  <a href="https://www.google.com/"><img src="https://img.shields.io/badge/release-v5.0.0-blue?style=flat-square"></a>
+  <a href="https://github.com/aexion-dev/Paradise"><img src="https://img.shields.io/badge/release-v5.0.0-blue?style=flat-square"></a>
   <a href="https://github.com/aexion-dev/Paradise/issues"><img src="https://img.shields.io/badge/issues-0-brightgreen?style=flat-square&logo=github"></a>
   <br>
   <a href="#requirements">Requirements</a> •
