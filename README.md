@@ -1,7 +1,7 @@
 <h1 align="center">Paradise</h1>
 <h4 align="center"></h4>
 <p align="center">
-  <a href="https://www.google.com/"><img src="http://img.shields.io/badge/build-passing-brightgreen?style=flat-square"></a>
+  <a href="https://api.travis-ci.com/aexion-dev/Paradise.svg?token=Y3LH7LkNFok1bgiXDG4y&branch=master"><img src="http://img.shields.io/badge/build-passing-brightgreen?style=flat-square"></a>
   <a href="https://www.google.com/"><img src="https://img.shields.io/badge/release-v5.0.0-blue?style=flat-square"></a>
   <a href="https://github.com/aexion-dev/Paradise/issues"><img src="https://img.shields.io/badge/issues-0-brightgreen?style=flat-square&logo=github"></a>
   <br>
@@ -122,7 +122,7 @@ sm_calcscore | [playername] | Force Paradise Score calculation
 sm_querycount | none | Show # of MySQL Queries ran this round
 sm_sh | [playername] | Show players strafes/angles for cheat detection
 
-For a full list of commands and their functions, read
+For a full list of commands and their functions, view our wiki page.
 
 ## Support
 ## Changelog
