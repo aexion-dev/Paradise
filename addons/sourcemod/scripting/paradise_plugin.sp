@@ -6,7 +6,7 @@
 #include <entity>
 #include <smlib>
 #include <dhooks>
-#include <sourcecomms>
+//#include <sourcecomms>
 #include <paradise-stocks>
 #include <botmimic>
 
@@ -1011,8 +1011,8 @@ public Action:HookPlayerChat(client, const String:command[], args)
 	{
 		if(IsValidClient(client, false))
 		{
-			if(bType:SourceComms_GetClientGagType(client) == bNot)
-			{
+			//if(bType:SourceComms_GetClientGagType(client) == bNot)
+			//{
 				decl String:steamid[64];
 				GetClientAuthId(client, AuthId_Engine, steamid, sizeof(steamid));
 				
@@ -1044,7 +1044,7 @@ public Action:HookPlayerChat(client, const String:command[], args)
 				{
 					PrintToChatAll(" \x01\x0B\x03[Lv. %d] \x01%N: %s", g_info[client][Level], client, szText);
 				}
-			}
+			//}
 		}
 		
 		return Plugin_Handled;
