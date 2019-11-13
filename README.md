@@ -10,8 +10,8 @@
   <a href="#features">Features</a> •
   <a href="#commands">Commands</a> •
   <a href="#wiki">Wiki</a> •
-  <a href="#requirements">Changelog</a> •
-  <a href="#requirements">Support</a>
+  <a href="#support">Support</a> •
+  <a href="#changelog">Changelog</a>
 </p>
 Paradise is a CS:GO server plug-in built from the ground up to re-define bunnyhopping within the Counter-Strike franchise. New styles, complex features and global competitions combine to create an experience unlike anything you've played before.
 
@@ -123,6 +123,7 @@ sm_querycount | none | Show # of MySQL Queries ran this round
 sm_sh | [playername] | Show players strafes/angles for cheat detection
 
 For a full list of commands and their functions, view our wiki page.
-
+## Wiki
+Paradise is a complex plug-in that provides a variety of new features/mechanics. If you'd like to learn more about the plug-in's capabilities or still have questions, please read through the articles on the wiki.
 ## Support
 ## Changelog
