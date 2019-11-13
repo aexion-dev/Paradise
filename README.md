@@ -70,10 +70,11 @@ Every map is assigned a tier and XP value based on the difficulty of the map, av
 There are five zone types in Paradise: Start Zone, End Zone, Bonus Start Zone, Bonus End Zone and Cheat Zone. Every zone can contain up to 6 vertices and the area defined functions  Each zone can contain up to 6 vertices and will perform a different function when a player enters/exits the defined area. Every map will require Start/End Zones to be playable. For information on all of the zones and their uses, read about it on our wiki page.
 * Create a New Zone
     * In-game type `!zones` into the chat to open the zone editor.
-    * Select the type of zone and press place zones.
-    * Place your crosshair on the ground at the first point and select place point.
-    * Select Save Zones and ensure they were saved to the database successfully.
-* Edit an Current Zone
+    * Select the type of zone you wish to create.
+    * Place your crosshair at the location of the first zone point and select `Start Point`.
+    * Repeat this for each zone point, and selecting `Next Point` each time.
+    * When the zone is complete, select Save Zone and ensure they were saved to the database successfully.
+* Edit a Current Zone
     * Coming Soon
 * Delete an Existing Zone
     * Coming Soon
